@@ -1,16 +1,19 @@
-# voice-ai-assistant
+# Mini Voice AI Assistant
 
-- Record your screen or just audio while:
-  - Speaking a short prompt
-  - Watching transcription + reply display
-  - Hearing the response
-- Save as `.gif`, `.mp4`, or `.mp3` clip
+## 🎙️ What It Does
+A simple voice assistant that:
+- Records audio from your browser
+- Transcribes it using Whisper
+- Sends the text to GPT
+- Converts GPT's reply to speech
+- Plays it back in the browser
 
----
+## 🚀 How to Run
 
-Let me know if you want help:
-- Writing the final `README`
-- Making the UI pretty
-- Adding extra features like history or sentiment
-
-🔥 Awesome job building this!
+```bash
+git clone ...
+cd voice-ai-assistant
+python -m venv .venv
+pip install -r requirements.txt
+python app.py
+Open http://127.0.0.1:5000 in your browser.
